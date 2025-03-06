@@ -1,0 +1,12 @@
+diff --git a/test/MNNTestSuite.h b/test/MNNTestSuite.h
+index a7ea46e4..52ade143 100644
+--- a/test/MNNTestSuite.h
++++ b/test/MNNTestSuite.h
+@@ -27,6 +27,7 @@
+ #include <sys/stat.h>
+ #include <sys/types.h>
+ #include <dirent.h>
++#include <cstdint>
+ #endif
+ 
+ static inline uint64_t getTimeInUs() {
