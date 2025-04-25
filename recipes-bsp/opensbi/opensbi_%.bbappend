@@ -17,6 +17,7 @@ SRC_URI:starfive-dubhe = "\
 SRC_URI:starfive-visionfive2 = "\
 	git://github.com/${FORK}/opensbi.git;protocol=https;branch=${BRANCH} \
 	file://visionfive2-uboot-fit-image.its \
+	file://reboot-fix.patch \
 	"
 
 SRC_URI:starfive-jh8100 = "\
